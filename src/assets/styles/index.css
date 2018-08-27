@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+
+input {
+  font-size: 18px;
+  text-transform: uppercase;
+  max-width: 200px;
+  margin-right: 16px;
+}
+
+button {
+  text-transform: uppercase;
+  border: none;
+  background-color: rgb(25, 148, 22);
+  color: #fff;
+  font-size: 18px;
+  padding: 8px;
+}
+p {
+  margin: 0;
+  display: inline;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.search {
+  flex-direction: row;
+}
+
+.information {
+  margin-top: 64px;
+  padding: 16px;
+  border-radius: 30px;
+  background-color: #fafafa;
+  font-family: sans-serif;
+  width: 40vh;
+}
+
+.name {
+  font-size: 20px;
+  color: rgb(108, 108, 108);
+  margin-bottom: 8px;
+}
+.symbol {
+  color: rgb(168, 168, 168);
+}
+
+.price {
+  font-size: 36px;
+}
